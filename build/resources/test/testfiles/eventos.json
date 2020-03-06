@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "descricao": "TDC 2008",
+    "dias": 1
+  },
+  {
+    "id": 2,
+    "descricao": "TDC 2008 Florianópolis",
+    "dias": 1
+  },
+  {
+    "id": 10,
+    "descricao": "TDC 2009 São Paulo",
+    "dias": 1
+  },
+  {
+    "id": 11,
+    "descricao": "TDC 2009 Florianópolis",
+    "dias": 1
+  },
+  {
+    "id": 12,
+    "descricao": "TDC 2009 Rio",
+    "dias": 1
+  },
+  {
+    "id": 21,
+    "descricao": "TDC 2010 São Paulo",
+    "dias": 1
+  },
+  {
+    "id": 22,
+    "descricao": "TDC 2010 São Paulo (organização)",
+    "gratuito": true,
+    "dias": 1
+  },
+  {
+    "id": 24,
+    "descricao": "TDC 2010 Florianópolis",
+    "dias": 1
+  },
+  {
+    "id": 25,
+    "descricao": "TDC 2010 Florianópolis (organização)",
+    "gratuito": true,
+    "dias": 1
+  },
+  {
+    "id": 36,
+    "descricao": "TDC 2011 São Paulo",
+    "dias": 1
+  },
+  {
+    "id": 37,
+    "descricao": "TDC 2011 Florianópolis",
+    "dias": 1
+  },
+  {
+    "id": 38,
+    "descricao": "TDC 2011 Goiânia",
+    "dias": 1
+  },
+  {
+    "id": 40,
+    "descricao": "TDC 2012 São Paulo",
+    "chave": "tdc-2012-saopaulo",
+    "dias": 5
+  },
+  {
+    "id": 41,
+    "descricao": "TDC 2012 Florianópolis",
+    "chave": "tdc-2012-florianopolis",
+    "dias": 1
+  },
+  {
+    "id": 47,
+    "descricao": "TDC 2012 Goiânia",
+    "chave": "tdc-2012-goiania",
+    "dias": 1
+  },
+  {
+    "id": 50,
+    "descricao": "TDC 2013 Florianópolis",
+    "chave": "tdc-2013-florianopolis",
+    "dias": 3
+  },
+  {
+    "id": 51,
+    "descricao": "TDC 2013 São Paulo",
+    "chave": "tdc-2013-saopaulo",
+    "dias": 5
+  },
+  {
+    "id": 52,
+    "descricao": "TDC 2013 Porto Alegre",
+    "chave": "tdc-2013-portoalegre",
+    "dias": 2
+  },
+  {
+    "id": 57,
+    "descricao": "TDC 2014 Florianópolis",
+    "chave": "tdc-2014-florianopolis",
+    "dias": 4
+  },
+  {
+    "id": 58,
+    "descricao": "TDC 2014 São Paulo",
+    "chave": "tdc-2014-saopaulo",
+    "dias": 5
+  },
+  {
+    "id": 59,
+    "descricao": "TDC 2014 Porto Alegre",
+    "chave": "tdc-2014-portoalegre",
+    "dias": 3
+  },
+  {
+    "id": 62,
+    "descricao": "TDC 2014 Florianópolis - Hackathon",
+    "chave": "tdc-2014-florianopolis-hackathons",
+    "dias": 3
+  },
+  {
+    "id": 65,
+    "descricao": "TDC 2014 São Paulo - TDC4Kids",
+    "chave": "tdc-2014-saopaulo-tdc4kids",
+    "dias": 1
+  },
+  {
+    "id": 67,
+    "descricao": "TDC 2014 Porto Alegre - TDC4Kids",
+    "chave": "tdc-2014-portoalegre-tdc4kids",
+    "dias": 1
+  },
+  {
+    "id": 71,
+    "descricao": "TDC 2015 Florianópolis",
+    "chave": "tdc-2015-florianopolis",
+    "dias": 4,
+    "dataInicio": "2015-05-13 00:00:00",
+    "dataTermino": "2015-05-16 23:59:59"
+  },
+  {
+    "id": 75,
+    "descricao": "TDC 2015 São Paulo",
+    "chave": "tdc-2015-saopaulo",
+    "dias": 5,
+    "dataInicio": "2015-07-21 00:00:00",
+    "dataTermino": "2015-07-25 23:59:59"
+  },
+  {
+    "id": 78,
+    "descricao": "TDC 2015 Porto Alegre",
+    "chave": "tdc-2015-portoalegre",
+    "dias": 3,
+    "dataInicio": "2015-09-24 00:00:00",
+    "dataTermino": "2015-09-26 23:59:59"
+  },
+  {
+    "id": 79,
+    "descricao": "TDC 2015 Porto Alegre - TDC4Kids",
+    "chave": "tdc-2015-portoalegre-tdc4kids",
+    "dias": 1,
+    "dataInicio": "2015-09-26 00:00:00",
+    "dataTermino": "2015-09-26 23:59:59"
+  },
+  {
+    "id": 83,
+    "descricao": "TDC 2016 Florianópolis",
+    "chave": "tdc-2016-florianopolis",
+    "dias": 4,
+    "dataInicio": "2016-05-11 00:00:00",
+    "dataTermino": "2016-05-14 23:59:59"
+  },
+  {
+    "id": 86,
+    "descricao": "TDC 2016 São Paulo",
+    "chave": "tdc-2016-saopaulo",
+    "dias": 5,
+    "dataInicio": "2016-07-05 00:00:00",
+    "dataTermino": "2016-07-09 23:59:59"
+  },
+  {
+    "id": 89,
+    "descricao": "TDC 2016 Porto Alegre",
+    "chave": "tdc-2016-portoalegre",
+    "dias": 4,
+    "dataInicio": "2016-10-05 00:00:00",
+    "dataTermino": "2016-10-08 23:59:59"
+  },
+  {
+    "id": 92,
+    "descricao": "TDC 2017 Florianópolis",
+    "chave": "tdc-2017-florianopolis",
+    "ativo": true,
+    "dias": 4,
+    "dataInicio": "2017-05-03 00:00:00",
+    "dataTermino": "2017-05-06 23:59:59"
+  },
+  {
+    "id": 95,
+    "descricao": "TDC 2017 São Paulo",
+    "chave": "tdc-2017-saopaulo",
+    "ativo": true,
+    "dias": 5,
+    "dataInicio": "2017-07-18 00:00:00",
+    "dataTermino": "2017-07-22 23:59:59"
+  },
+  {
+    "id": 98,
+    "descricao": "TDC 2017 Porto Alegre",
+    "chave": "tdc-2017-portoalegre",
+    "ativo": true,
+    "dias": 4,
+    "dataInicio": "2017-11-08 00:00:00",
+    "dataTermino": "2017-11-11 23:59:59"
+  },
+  {
+    "id": 101,
+    "descricao": "TDC 2018 Florianópolis",
+    "chave": "tdc-2018-florianopolis",
+    "ativo": true,
+    "dias": 4,
+    "dataInicio": "2018-04-18 00:00:00",
+    "dataTermino": "2018-04-21 00:00:00"
+  },
+  {
+    "id": 104,
+    "descricao": "TDC 2018 São Paulo",
+    "chave": "tdc-2018-saopaulo",
+    "ativo": true,
+    "dias": 5,
+    "dataInicio": "2018-07-17 00:00:00",
+    "dataTermino": "2018-07-21 00:00:00"
+  },
+  {
+    "id": 107,
+    "descricao": "TDC 2018 Porto Alegre",
+    "chave": "tdc-2018-portoalegre",
+    "ativo": true,
+    "dias": 4,
+    "dataInicio": "2018-12-05 00:00:00",
+    "dataTermino": "2018-12-08 00:00:00"
+  },
+  {
+    "id": 110,
+    "descricao": "TDC 2019 Florianópolis",
+    "chave": "tdc-2019-florianopolis",
+    "ativo": true,
+    "dias": 5,
+    "dataInicio": "2019-04-23 00:00:00",
+    "dataTermino": "2019-04-27 00:00:00"
+  },
+  {
+    "id": 112,
+    "descricao": "TDC 2019 Belo Horizonte",
+    "chave": "tdc-2019-belohorizonte",
+    "dias": 3,
+    "dataInicio": "2019-06-20 00:00:00",
+    "dataTermino": "2019-06-23 00:00:00"
+  },
+  {
+    "id": 114,
+    "descricao": "TDC 2019 São Paulo",
+    "chave": "tdc-2019-saopaulo",
+    "dias": 5,
+    "dataInicio": "2019-07-24 00:00:00",
+    "dataTermino": "2019-07-28 00:00:00"
+  },
+  {
+    "id": 116,
+    "descricao": "TDC 2019 Recife",
+    "chave": "tdc-2019-recife",
+    "dias": 3,
+    "dataInicio": "2019-09-11 00:00:00",
+    "dataTermino": "2019-09-13 00:00:00"
+  },
+  {
+    "id": 118,
+    "descricao": "TDC 2019 Porto Alegre",
+    "chave": "tdc-2019-portoalegre",
+    "dias": 5,
+    "dataInicio": "2019-12-04 00:00:00",
+    "dataTermino": "2019-12-07 00:00:00"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        },
+        "chave": {
+          "type": "string"
+        },
+        "ativo": {
+          "type": "boolean"
+        },
+        "dias": {
+          "type": "integer"
+        },
+        "dataInicio": {
+          "type": "string"
+        },
+        "dataTermino": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "descricao",
+        "dias"
+      ],
+      "additionalProperties": true
+    }
+  ]
+}

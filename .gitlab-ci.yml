@@ -1,0 +1,64 @@
+image: gradle:alpine
+
+stages:
+  - build
+  - unittest
+  - health_check
+  - contrato
+  - aceitacao
+  - funcional
+
+# Disable the Gradle daemon for Continuous Integration servers as correctness
+# is usually a priority over speed in CI environments. Using a fresh
+# runtime for each build is more reliable since the runtime is completely
+# isolated from any previous builds.
+variables:
+  GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+
+before_script:
+  - export GRADLE_USER_HOME=`pwd`/.gradle
+
+cache:
+  paths:
+    - .gradle/wrapper
+    - .gradle/caches
+
+build:
+  stage: build
+  script: gradle --build-cache assemble
+  cache:
+    key: "$CI_COMMIT_REF_NAME"
+    policy: push
+    paths:
+      - build
+      - .gradle
+
+unittest:
+  stage: unittest
+  script:
+   - gradle test -Psuite=unittest
+
+health check:
+  stage: health_check 
+  script:
+    - gradle test -Psuite=health_check
+
+contrato:
+  stage: contrato
+  script:
+    - gradle test -Psuite=contrato
+
+aceitacao:
+  stage: aceitacao
+  script:
+    - gradle test -Psuite=aceitacao
+
+funcional positivo:
+  stage: funcional
+  script:
+    - gradle test -Psuite=funcional_positivo
+
+funcional negativo:
+  stage: funcional
+  script:
+    - gradle test -Psuite=funcional_negativo
